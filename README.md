@@ -80,4 +80,4 @@ python main.py
 
 ## 许可证
 
-[许可证信息待补充]
+This code was generated using a generative artificial intelligence system and is licensed under the Artificial Intelligence Generated Code General Public License (AIGCGPL). For more information, see [https://github.com/OpenChiip/AIGCGPL/blob/main/LICENSE].
