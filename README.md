@@ -58,7 +58,7 @@ python main.py [选项]
 
 启动交互式模式：
 ```bash
-python main.py --interactive
+python main.py 
 ```
 
 ### 使用示例
