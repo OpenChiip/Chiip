@@ -1,8 +1,3 @@
-# Copyright: (c) OpenChiip Organization. https://github.com/OpenChiip/Chiip
-# Copyright: (c) <aigc@openchiip.com>
-# Generated model: Qwen2.5-coder
-# Released under the AIGCGPL-1.0 License.
-
 """
 工具函数包
 """
