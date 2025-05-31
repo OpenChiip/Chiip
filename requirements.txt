@@ -2,4 +2,4 @@
 rich>=13.0.0
 openai>=1.0.0
 
-# Note: This project requires Python 3.8+
+# Note: This project requires Python 3.9+
