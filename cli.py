@@ -290,40 +290,7 @@ class CLI:
         console.print("\n[bold]AI响应:[/bold]")
         console.print(result['response'])
         
-        # 显示代码块
-        # if result['code_blocks']:
-        #     console.print("\n[bold]代码块:[/bold]")
-        #     for block in result['code_blocks']:
-        #         console.print(Panel(
-        #             Syntax(
-        #                 block['code'],
-        #                 block['language'],
-        #                 theme='monokai',
-        #                 line_numbers=True
-        #             ),
-        #             title=f"[{block['language']}]"
-        #         ))
-        
-        # 显示文件操作
-        # if result['file_operations']:
-        #     console.print("\n[bold]文件操作:[/bold]")
-        #     table = Table(show_header=True)
-        #     table.add_column("操作")
-        #     table.add_column("文件路径")
-            
-        #     for op in result['file_operations']:
-        #         table.add_row(
-        #             op['operation'],
-        #             op['path']
-        #         )
-            
-        #     console.print(table)
-        
-        # 显示依赖需求
-        # if result['requirements']:
-        #     console.print("\n[bold]依赖需求:[/bold]")
-        #     for req in result['requirements']:
-        #         console.print(f"- {req}")
+
     
     def _show_help(self) -> None:
         """显示帮助信息"""
